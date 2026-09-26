@@ -1,12 +1,14 @@
 {
-  "name": "twod-set-backend",
+  "name": "2d-set-backend",
   "version": "1.0.0",
+  "description": "SET live data backend API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
   }
 }
-
